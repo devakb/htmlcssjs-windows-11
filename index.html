@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows 11</title>
+    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="windows_11">
+
+        <div class="background-wallpaper">
+            <!-- <img src="media/bg.jpeg" /> -->
+            <video autoplay muted>
+                <source src="media/video.webm" type="video/webm"/>
+            </video>
+        </div>
+
+
+        <div class="windows-space">
+
+            <div class="desktop-icons">
+                <img src="media/recyclebinicon.png" />
+                <img src="media/edgeicon.png" />
+            </div>
+
+            <div class="start-menu" id="start_menu">
+                <img src="media/startmenu.png" />
+            </div>
+
+
+
+        </div>
+
+        
+        <div class="windows-taskbar">
+
+            <div class="taskbar-items">
+                <img src="media/taskbaricons/start.png" id="start_icon_taskbar" onclick="toggleClass('start_menu', 'open')"/>
+                <img src="media/taskbaricons/search.png" />
+                <img src="media/taskbaricons/widgets.png" />
+                <img src="media/taskbaricons/edge.png" />
+                <img src="media/taskbaricons/vscode.png" />
+                <img src="media/taskbaricons/file.png" />
+                <img src="media/taskbaricons/store.png" />
+            </div>
+
+            <div class="system-tray">
+                <img src="media/taskbarright.png" />
+            </div>
+
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
