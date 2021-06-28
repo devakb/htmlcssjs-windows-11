@@ -2,4 +2,4 @@
 Fake
 
 
-https://devakb.github.io/htmlcssjs-windows-11/index.html
+https://devakb.github.io/htmlcssjs-windows-11/
